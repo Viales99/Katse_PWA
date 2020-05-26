@@ -1,0 +1,64 @@
+{
+"name": "KATSE_PWA",
+"short_name": "KATSE",
+"description": "Bienvenid@s a KATSE, soluciones de software a medida",
+"background_color": "rgb(60, 145, 145)",
+"theme_color": "rgb(34, 107, 107)",
+"orientation": "portrait",
+"display": "standalone",
+"start_url": "./?utm_source=web_app_manifest",
+"scope": "./",
+"lang": "es-MX",
+"icons": [
+  {
+    "src": "./Logo/LogoKatseBlanco_1024.png",
+    "sizes": "1024x1024",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_384.png",
+    "sizes": "384x384",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_64.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/LogoKatseBlanco_32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },
+  {
+    "src": "./Logo/favicon.png",
+    "sizes": "16x16",
+    "type": "image/png"
+  }
+]
+}

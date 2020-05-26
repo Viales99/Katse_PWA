@@ -1,0 +1,275 @@
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*=====================================================================================================================================
+======================================================================================================================================= */
+
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    text-align: justify;
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #Logo {
+     padding: 0 47% 0 36%;  
+  }
+}
+
+ /*Estableciendo adaptación de elementos (Responsive)*/ 
+@media only screen and (min-width: 768px) {
+
+/* ==================
+   Posición del logo
+  =================== */
+
+  #Logo {
+    height: 95px;      
+    margin: 0 0 -25px 20px;
+    float: left;     
+  }
+
+/* =======================================
+   Posición de elementos del encabezado
+  ======================================== */
+    
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ================================================
+    Posición de elementos del contenedor principal
+   ================================================ */
+
+   .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+
+/* =================================
+    Sombras del encabezado y aside
+   ================================== */
+    
+   .HeaderContainer,
+   .main aside {
+       -webkit-box-shadow: 0 5px 10px #aaa;
+       -moz-box-shadow: 0 5px 10px #aaa;
+       box-shadow: 0 5px 10px #aaa;
+   }
+}
+
+/*Estableciendo adaptación de elementos (Responsive)*/ 
+@media only screen and (min-width: 1140px) {
+
+/* =================================================================
+    Características de "envolturas" (De encabezado y pie de página)
+   ================================================================= */
+
+   .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+
+    }
+}
+
+/* =================================================================
+    Características de elementos del contenedor principal y footer 
+   ================================================================= */
+
+    .main {
+        padding: 30px 0;
+    }
+
+    .main article h1 {
+        font-size: 2em;
+    }
+
+    .main aside {
+        color: white;
+        padding: 0px 5% 10px;
+    }
+
+    .FooterContainer footer {
+        color: white;
+        padding: 20px 0;
+    }
+
+    .ie7 .title {
+        padding-top: 20px;
+    }
+
+/* =============================================
+    Estableciendo color a elementos principales
+   ============================================= */
+
+.HeaderContainer {
+    border-bottom: 20px solid rgb(34, 107, 107);   
+}
+
+.FooterContainer,
+.main aside { 
+    border-top: 20px solid rgb(34, 107, 107);
+}
+
+.HeaderContainer,
+.FooterContainer,
+.MainContainer aside, #Logo {
+    background-color: rgb(60, 145, 145);
+}
+
+.title {
+    color: white;
+}
+
+/* ===============================================
+    Caracteristicas de las Opciones del encabezado
+   =============================================== */
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: rgb(34, 107, 107);
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================================
+    Margenes y alineamiento de las Opciones del encabezado
+   ======================================================== */
+
+/*Estableciendo adaptación de elementos (Responsive)*/ 
+@media only screen and (min-width: 480px) {
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+    
+/* ===========================================
+                 Clearfix Hack
+   ===========================================*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
